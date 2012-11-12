@@ -1,0 +1,5 @@
+cookbook 'graphite', :git => 'https://github.com/rberger/graphite.git', :ref => '56f6692b1029171ce74490725aa83aad7d46960b'
+cookbook 'python', :locked_version => '1.0.8'
+cookbook 'build-essential', :locked_version => '1.2.0'
+cookbook 'yum', :locked_version => '1.0.0'
+cookbook 'apache2', :locked_version => '1.2.0'
